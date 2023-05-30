@@ -1,29 +1,23 @@
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.rust" },
-  { import = "astrocommunity.colorscheme.nightfox", enabled = false },
-  { import = "astrocommunity.colorscheme.kanagawa", enabled = true },
-  { import = "astrocommunity.colorscheme.rose-pine" },
-  { import = "astrocommunity.colorscheme.catppuccin" },
-  { -- further customize the options set by the community
-    "catppuccin",
+  { "luisiacc/gruvbox-baby" },
+  {
+    "loctvl842/monokai-pro.nvim",
     opts = {
-      integrations = {
-        sandwich = false,
-        noice = true,
-        mini = true,
-        leap = true,
-        markdown = true,
-        neotest = true,
-        cmp = true,
-        overseer = true,
-        lsp_trouble = true,
-        ts_rainbow2 = true,
+      terminal_colors = true,
+      devicons = true, -- highlight the icons of `nvim-web-devicons`
+      filter = "machine", -- classic | octagon | pro | machine | ristretto | spectrum
+      plugins = {
+        indent_blankline = {
+          context_highlight = "pro", -- default | pro
+          context_start_underline = false,
+        },
       },
     },
   },
   { import = "astrocommunity.completion.copilot-lua" },
-  { -- further customize the options set by the community
+  {
+    -- further customize the options set by the community
     "copilot.lua",
     opts = {
       suggestion = {
