@@ -9,6 +9,8 @@ return {
   { "sainnhe/sonokai" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.color.transparent-nvim" },
+  { import = "astrocommunity.colorscheme.dracula-nvim" },
+  { import = "astrocommunity.colorscheme.github-nvim-theme" },
   {
     "loctvl842/monokai-pro.nvim",
     opts = {
