@@ -1,12 +1,18 @@
 return {
   "AstroNvim/astrocommunity",
+  {
+    "barrett-ruth/live-server.nvim",
+    build = "yarn global add live-server",
+    opts = {},
+  },
   { "luisiacc/gruvbox-baby" },
+  { "sainnhe/sonokai" },
   {
     "loctvl842/monokai-pro.nvim",
     opts = {
       terminal_colors = true,
       devicons = true, -- highlight the icons of `nvim-web-devicons`
-      filter = "machine", -- classic | octagon | pro | machine | ristretto | spectrum
+      filter = "spectrum", -- classic | octagon | pro | machine | ristretto | spectrum
       plugins = {
         indent_blankline = {
           context_highlight = "pro", -- default | pro
@@ -14,6 +20,11 @@ return {
         },
       },
     },
+  },
+  {
+    "catppuccin/nvim",
+    as = "catppuccin",
+    config = function() require("catppuccin").setup {} end,
   },
   { import = "astrocommunity.completion.copilot-lua" },
   {
