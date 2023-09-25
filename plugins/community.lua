@@ -7,6 +7,8 @@ return {
   },
   { "luisiacc/gruvbox-baby" },
   { "sainnhe/sonokai" },
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.color.transparent-nvim" },
   {
     "loctvl842/monokai-pro.nvim",
     opts = {
