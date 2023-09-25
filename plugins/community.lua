@@ -8,9 +8,11 @@ return {
   { "luisiacc/gruvbox-baby" },
   { "sainnhe/sonokai" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
-  { import = "astrocommunity.color.transparent-nvim" },
+  --{ import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.colorscheme.dracula-nvim" },
   { import = "astrocommunity.colorscheme.github-nvim-theme" },
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.html-css" },
   {
     "loctvl842/monokai-pro.nvim",
     opts = {
