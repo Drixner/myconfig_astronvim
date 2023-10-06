@@ -13,6 +13,8 @@ return {
   { import = "astrocommunity.colorscheme.github-nvim-theme" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.media.pets-nvim" },
+  { import = "astrocommunity.media.vim-wakatime" },
   {
     "loctvl842/monokai-pro.nvim",
     opts = {
