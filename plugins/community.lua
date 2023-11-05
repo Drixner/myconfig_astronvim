@@ -15,6 +15,7 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.media.pets-nvim" },
+  { import = "astrocommunity.bars-and-lines.vim-illuminate" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.media.vim-wakatime" },
   {
