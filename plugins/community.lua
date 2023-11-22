@@ -1,11 +1,11 @@
 return {
   "AstroNvim/astrocommunity",
+  { "luisiacc/gruvbox-baby" },
   {
     "barrett-ruth/live-server.nvim",
     build = "yarn global add live-server",
     opts = {},
   },
-  { "luisiacc/gruvbox-baby" },
   { "sainnhe/sonokai" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   --{ import = "astrocommunity.color.transparent-nvim" },
