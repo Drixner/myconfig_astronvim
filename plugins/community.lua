@@ -12,9 +12,12 @@ return {
   --{ import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.colorscheme.dracula-nvim" },
   { import = "astrocommunity.colorscheme.github-nvim-theme" },
+  { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.media.pets-nvim" },
+  { import = "astrocommunity.bars-and-lines.vim-illuminate" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.media.vim-wakatime" },
   {
     "loctvl842/monokai-pro.nvim",
