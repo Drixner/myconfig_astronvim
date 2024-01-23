@@ -7,6 +7,10 @@ return {
     event = "User AstroFile",
     opts = {},
   },
+  {
+    "turbio/bracey.vim",
+    event = "User AstroFile",
+  },
   { "sainnhe/sonokai" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   --{ import = "astrocommunity.color.transparent-nvim" },
