@@ -1,3 +1,16 @@
+vim.g.clipboard = {
+  name = "clipboard",
+  copy = {
+    ["+"] = "clip.exe",
+    ["*"] = "clip.exe",
+  },
+  paste = {
+    ["+"] = "powershell.exe -c [Console]::In.ReadToEnd().ToString()",
+    ["*"] = "powershell.exe -c [Console]::In.ReadToEnd().ToString()",
+  },
+  cache_enabled = 0,
+}
+
 return {
   -- Configure AstroNvim updates
   updater = {
@@ -64,7 +77,6 @@ return {
       },
     },
   },
-
   -- This function is run last and is a good place to configuring
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
