@@ -12,6 +12,8 @@ return {
     event = "User AstroFile",
   },
   { "sainnhe/sonokai" },
+  { "kartikp10/noctis.nvim", requires = { "rktjmp/lush.nvim" } },
+  { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   --{ import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.colorscheme.dracula-nvim" },
