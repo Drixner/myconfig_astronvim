@@ -13,6 +13,9 @@ return {
   },
   { "kartikp10/noctis.nvim" },
   { "sainnhe/sonokai" },
+
+  -- colorscheme
+  { import = "astrocommunity.colorscheme.nightfox-nvim" },
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   --{ import = "astrocommunity.color.transparent-nvim" },
@@ -21,6 +24,8 @@ return {
   { import = "astrocommunity.colorscheme.github-nvim-theme" },
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.colorscheme.nordic-nvim" },
+  -- end colorscheme
+  --
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.media.pets-nvim" },
