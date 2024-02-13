@@ -31,8 +31,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "onedark_dark",
-
+  colorscheme = "nordic",
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
