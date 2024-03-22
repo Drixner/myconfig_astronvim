@@ -24,6 +24,7 @@ return {
   { import = "astrocommunity.colorscheme.github-nvim-theme" },
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.colorscheme.nordic-nvim" },
+  -- { import = "astrocommunity.colorscheme.catppuccino-nvim" },
   -- end colorscheme
   --
   { import = "astrocommunity.pack.python" },
