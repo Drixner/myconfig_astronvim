@@ -33,6 +33,13 @@ return {
   { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.media.vim-wakatime" },
   {
+    "L3MON4D3/LuaSnip",
+    -- follow latest release.
+    version = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
+    -- install jsregexp (optional!).
+    build = "make install_jsregexp",
+  },
+  {
     "loctvl842/monokai-pro.nvim",
     opts = {
       terminal_colors = true,
