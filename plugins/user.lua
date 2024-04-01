@@ -9,4 +9,14 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  -- {
+  --   "barrett-ruth/live-server.nvim",
+  --   build = "yarn global add live-server",
+  --   opts = {},
+  -- },
+  -- {
+  --   "turbio/bracey.vim",
+  --   opts = {},
+  --   event = "User AstroFile",
+  -- },
 }

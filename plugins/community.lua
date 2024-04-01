@@ -10,6 +10,7 @@ return {
   {
     "turbio/bracey.vim",
     event = "User AstroFile",
+    opts = {},
   },
   { "kartikp10/noctis.nvim" },
   { "sainnhe/sonokai" },
