@@ -10,10 +10,15 @@ return {
   -- {
   --   "turbio/bracey.vim",
   --   event = "User AstroFile",
-  --   opts = {},
   -- },
   { "kartikp10/noctis.nvim" },
   { "sainnhe/sonokai" },
+  {
+    "AstroNvim/astrolsp",
+    opts = {
+      -- set configuration options  as described below
+    },
+  },
 
   -- colorscheme
   { import = "astrocommunity.colorscheme.nightfox-nvim" },

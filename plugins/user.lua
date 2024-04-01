@@ -16,7 +16,7 @@ return {
   -- },
   -- {
   --   "turbio/bracey.vim",
-  --   opts = {},
   --   event = "User AstroFile",
+  --   lazy = false,
   -- },
 }
