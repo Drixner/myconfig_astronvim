@@ -1,12 +1,12 @@
 return {
   "AstroNvim/astrocommunity",
   { "luisiacc/gruvbox-baby" },
-  {
-    "barrett-ruth/live-server.nvim",
-    build = "yarn global add live-server",
-    event = "User AstroFile",
-    opts = {},
-  },
+  -- {
+  --   "barrett-ruth/live-server.nvim",
+  --   build = "yarn global add live-server",
+  --   event = "User AstroFile",
+  --   config = true,
+  -- },
   {
     "turbio/bracey.vim",
     event = "User AstroFile",
