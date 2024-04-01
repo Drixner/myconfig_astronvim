@@ -7,11 +7,11 @@ return {
   --   event = "User AstroFile",
   --   config = true,
   -- },
-  {
-    "turbio/bracey.vim",
-    event = "User AstroFile",
-    opts = {},
-  },
+  -- {
+  --   "turbio/bracey.vim",
+  --   event = "User AstroFile",
+  --   opts = {},
+  -- },
   { "kartikp10/noctis.nvim" },
   { "sainnhe/sonokai" },
 
