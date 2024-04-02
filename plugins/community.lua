@@ -7,12 +7,12 @@ return {
   --   event = "User AstroFile",
   --   config = true,
   -- },
-  {
-    "turbio/bracey.vim",
-    cmd = { "Bracey", "BracyStop", "BraceyReload", "BraceyEval" },
-    build = "npm install --prefix server",
-  },
-
+  -- {
+  --   "turbio/bracey.vim",
+  --   cmd = { "Bracey", "BracyStop", "BraceyReload", "BraceyEval" },
+  --   build = "npm install --prefix server",
+  -- },
+  --
   { "kartikp10/noctis.nvim" },
   { "sainnhe/sonokai" },
   {
